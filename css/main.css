@@ -1,0 +1,23 @@
+/* MAIN */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif; 
+     font-size: 16px;
+    font-weight: 600;
+    color: #6a7b88; 
+}
+
+p {
+    display: inline-block;
+    margin:  0;
+}
+
+.block--no-padding {
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,24 @@
+/* INTRODUCE */
+.introduce {
+    padding: 6.25em 0;
+    text-align: center;
+}
+
+.introduce__content {
+    text-align: left;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.introduce__title {
+    margin-bottom: 2.5rem;
+    text-transform: uppercase;
+    font-size: 3.125em;
+    font-weight: 200;
+    color: #3c3950;
+    font-family: "Montserrat", sans-serif;
+}
+
+.introduce__title-name {
+    font-weight: 700;
+}

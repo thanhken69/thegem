@@ -1,0 +1,165 @@
+/* SLIDE-SHOW */
+.slider {
+    width: 100%;
+    padding-top: 6.25em;
+    align-items: center;
+    text-align: center;
+    color: #ffff;
+}
+
+.fade:not(.show) {
+    opacity: 1;
+}
+
+.slider__content {
+    position: relative;
+    margin: auto;
+    display: none;
+    overflow: hidden;
+}
+
+.slider__img {
+    position: relative;
+    left: -1%;
+}
+
+.slider__text {
+    font-weight: 200;
+    margin: 0 3.125rem 3.125rem 3.125rem;
+}
+
+.slider__title {
+    padding-top: 3.125rem;
+    font-size: 3.125em;
+    font-weight: 200;
+    font-family: "Montserrat", sans-serif;
+}
+
+.slider__title-tables {
+    font-weight: 700;
+}
+
+.slider__btn {
+    position: relative;
+    display: inline-block;
+    padding: 0.3125em 1.25em;
+    font-size: 1.1875em;
+    border-radius: 5em;
+    text-transform: uppercase;
+    margin: 0.625em;
+    color: #ffff;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+.slider__btn--white {
+    border: 0.125em solid white;
+}
+
+.slider__btn--white:hover {
+    background-color: #ffff;
+    color: #2c2e3d;
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+}
+
+.slider__btn--blue {
+    border: 0.125em solid #4ec2c8;
+    color: #4ec2c8;
+}
+
+.slider__btn--blue:hover {
+    background-color: #4ec2c8;
+    color: #2c2e3d;
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+}
+
+.slider__btn:active {
+    opacity: 0.6;
+    transform: scale(1);
+    transition: 0.2s;
+}
+
+/* BTN-SLIDE-SHOW */
+.btn-prev,
+.btn-next {
+    padding: 0.9375em 0.9375em;
+    position: absolute;
+    top: 50%;
+    border: white 0 solid;
+    background-color: #212331;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+    background-color: #00bcd4;
+    color: #ffff;
+    transition: 0.4s ease-in-out;
+}
+
+.btn-prev {
+    left: 1%;
+}
+.btn-next {
+    right: 1%;
+}
+
+.fa-arrow-left:before,
+.fa-arrow-right:before {
+    font-size: 1.25rem;
+}
+
+.slider-navigations {
+    position: absolute;
+    align-items: center;
+    padding: 0;
+    z-index: 10;
+    bottom: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider__content-dot {
+    margin: 0 1.25em;
+    padding: 0.625em 0.625em;
+    background-color: #717171;
+    opacity: 0.5;
+    list-style: none;
+    border-radius: 50%;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.active-slide, .slider__content-dot:hover {
+    background-color: #bbb;
+}
+
+/* tạo hiệu ứng chuyển động fade */
+.slide-fade {
+    -webkit-animation-name: slide-fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: slide-fade;
+    animation-duration: 1.5s;
+  }
+
+@-webkit-keyframes slide-fade {
+    from {opacity: .2}
+    to {opacity: 1}
+  }
+
+@keyframes slide-fade {
+    from {opacity: .2}
+    to {opacity: 1}
+  } 
+
+@media screen and (min-width: 768px) {
+    .slider__title {
+        font-size: 4.375em;
+    }
+    .slider__text {
+        font-size: 1.25em;
+    }
+}

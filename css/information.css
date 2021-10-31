@@ -1,0 +1,253 @@
+/* INFORMATION */
+.information {
+    background-color: #212331;
+    color: #ffff;
+    padding: 6.25em 0 3.75em 0;
+    position: relative;
+    font-size: 0.875em;
+    font-weight: 500;
+}
+
+.information__content {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2.5em;
+    color: #99a9b5;
+    padding-bottom: 1.25em;
+}
+
+.information__content-title {
+    margin-bottom: 2.5em;
+    text-transform: uppercase;
+    font-size: 1.1875em;
+    color: #ffff;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* LOGO */
+.information__logo-img {
+    float: left;
+    margin-bottom: 2.5em;
+}
+
+.information__logo-name {
+    float: left;
+    text-transform: uppercase;
+    font-size: 2.416875em;
+    color: #ffff;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+
+.information__logo-name-gem {
+    font-weight: 700;
+}
+
+/* RECENT POST */
+.information__box {
+    padding: 0.625em 0 0.625em 0;
+    border-bottom: 0.0625em dashed #99a9b5;
+}
+
+.information__date {
+    padding: 0.3125em 0;
+    color: #00bcd4;
+}
+
+.information__image {
+    float: left;
+    width: 108%;
+    height: 108%;
+}
+
+.information__cmt,
+.information__date > .fa-comments {
+    float: right;
+}
+
+/* EMAIL US */
+.information__email-input {
+    width: 100%;
+    height: 2.8125rem;
+    border: 0.00625rem solid #394050;
+    margin: 0.625em 0 0.625em 0;
+    background-color: #181828;
+    color: #99a9b5;
+}
+
+.information__email-message {
+    height: 8.125em;
+    line-height: 0.625em;
+}
+
+.information__email-us-btn {
+    display: block;
+    width: 100%;
+    height: 3.125em;
+    line-height: 3.4375em;
+    border-radius: 0.3125em;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #99a9b5;
+    font-weight: 600;
+    background-color: #394050;
+    transition: all 0.4s;
+}
+
+.information__email-us-btn:hover {
+    background-color: #00bcd4;
+    color: #ffff;
+}
+
+.information__email-us-btn:hover:active {
+    transform: scale(0.9);
+    transition: 0.1s ease-out;
+}
+
+/* FLICK FEED */
+.information__flick-img {
+    width: 100%;
+    height: 100%;
+    padding: 0.3125em;
+}
+
+/* CONTACT */
+.information__address {
+    border-bottom: 0.0625em dashed #99a9b5;
+    padding-bottom: 2.5em;
+}
+
+.information__contact {
+    list-style-type: none;
+    padding: 2.5em 0 0 0;
+}
+
+.information__contact-item {
+    padding: 0;
+    padding-bottom: 1.25em;
+}
+
+.information__contact-email,
+.information__contact-website {
+    text-decoration: none;
+    color: #00bcd4;
+}
+
+/* USEFUL LINKS */
+.information__useful-links {
+    padding: 0;
+}
+
+.information__useful-item {
+    padding: 0.625em 0 0.625em 0;
+    border-bottom: 0.0625em dashed #99a9b5;
+    text-decoration: none;
+    color: #99a9b5;
+    list-style-type: none;
+}
+
+.information__useful-item .fa-circle {
+    font-size: 0.375em;
+    color: #00bcd4;
+}
+
+.information__useful-item-name {
+    text-decoration: none;
+    color: #99a9b5;
+}
+
+.information__useful-item-name:hover {
+    color: #00bcd4;
+}
+
+.information__useful-item:hover .fa-circle {
+    color: #ffff;
+}
+
+.information__useful-item:last-child {
+    border: none;
+}
+
+/* PROJECTS/CLIENTS */
+.information__project-img {
+    width: 100%;
+    height: 100%;
+    padding: 0.3125em;
+}
+
+/* SLIDE SHOW - PROJECTS/CLIENT */
+.infor-navigations {
+    position: absolute;
+    bottom: -15%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .information__slide-dot {
+    width: 0.9375rem;
+    height: 0.9375rem;
+    margin: 0 0.625rem;
+    background-color: #717171;
+    opacity: 0.5;
+    list-style: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.active-slide, .information__slide-dot:hover {
+    background-color: #bbb;
+}
+
+.information__slide {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    display: none;
+}
+
+/* NEWSLETTER */
+.information__newsletter-input {
+    background-color: #181828;
+    width: 80%;
+    height: 2.8125em;
+    border: 0.125em solid #394050;
+    margin: 2.5em 0 0.9375em 0;
+    color: #99a9b5;
+}
+
+.information__newsletter-btn {
+    text-align: center;
+    width: 20%;
+    height: 2.8125em;
+    line-height: 2.8125em;
+    float: right;
+    text-decoration: none;
+    margin: 2.5em 0 0.9375em 0;
+    background-color: #394050;
+    color: #99a9b5;
+    transition: 0.4s;
+}
+
+.information__newsletter-btn:hover {
+    color: #ffff;
+    background-color: #00bcd4;
+}
+
+.information__newsletter-btn:active {
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+.information__newsletter-description {
+    color: #4a4b5b;
+    font-size: 0.75em;
+}
+
+.information__newsletter-description::before {
+    content: "*";
+    color: #00bcd4;
+}

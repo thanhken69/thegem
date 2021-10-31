@@ -1,0 +1,63 @@
+/* AD-BLOCK SECTION */
+.adblock {
+    background-color: #494b58;
+}
+
+.adblock__content {
+    position: relative;
+    text-align: center;
+    padding: 6.25em 0;
+}
+
+.adblock__title {
+    text-align: center;
+    font-size: 4.375em;
+    text-transform: uppercase;
+    margin: 2.5rem 0;
+    font-weight: 300;
+    color: #ececed;
+    font-family: "Montserrat", sans-serif;
+}
+
+.adblock__text {
+    width: 70%;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #ffff;
+}
+
+.adblock__content-btn {
+    position: relative;
+    padding: 0.3125em 1.875em;
+    border: 0.1875em solid #4ec3c9;
+    border-radius: 1.5625em;
+    font-size: 1.1875em;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 3.75em;
+    color: #4ec3c9;
+    transition: all 0.4s;
+    font-family: "Montserrat", sans-serif;
+}
+
+.adblock__content-btn:hover {
+    color: #ffff;
+    background-color: #4ec3c9;
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+}
+
+.adblock__content-btn:active {
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+}
+
+@media screen and (min-width: 574px) {
+    .adblock__title {
+        font-size: 6.25em;
+    }
+
+    .adblock__text {
+        font-size: 1.5em;
+    }
+}

@@ -1,0 +1,250 @@
+/* SERVICE-PACK4 SECTION */
+.service-pack4 {
+    width: 100%;
+    background-color: #1b1b2b;
+}
+
+.service-pack4__content {
+    width: 100%;
+    position: relative;
+    background-color: #2c2e3d;
+    border-radius: 62.5em 62.5em 0 0;
+    text-align: center;
+    padding: 1.25em 0;
+    margin: 3.125em 0;
+    color: #99a9b5;
+    transition: all 0.6s;
+}
+
+.service-pack4__content:hover {
+    background-color: #393d50;
+    transition: 0.4s ease-in-out;
+}
+
+.service-pack4__price {
+    margin-top: 0.9375em;
+    position: absolute;
+    width: 12.5em;
+    height: 12.5em;
+    transition: all 0.6s;
+}
+
+.service-pack4__price-child {
+    top: 0.9375em;
+    position: relative;
+    width: 10.625em;
+    height: 10.625em;
+    color: #ffff;
+    display: block;
+    font-weight: 300;
+}
+
+.service-pack4__content:hover .service-pack4__price {
+    width: 13.75em;
+    height: 13.75em;
+    top: 0.625em;
+    transition: 0.6s;
+}
+
+.service-pack4__content:hover .service-pack4__price-child {
+    top: 1.5625em;
+}
+
+.service-pack4__money {
+    padding-top: 1.25rem;
+    font-size: 3.125rem;
+}
+
+.service-pack4__permonth {
+    font-size: 1.5em;
+}
+
+.service-pack4__title {
+    width: 100%;
+    padding: 1.875em 0;
+    height: 5rem;
+    margin-top: 15.625em;
+    background-color: #393d50;
+    transition: all 0.6s;
+}
+
+.service-pack4__content:hover .service-pack4__title {
+   padding: 0.9375em;
+}
+
+.service-pack4__name {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.service-pack4__description {
+    color: #5f727f;
+    font-size: 0.875em;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+    height: 0;
+    transition: all 0.6s;
+}
+
+.service-pack4__content:hover .service-pack4__description {
+    display: block;
+    opacity: 1;
+    height: auto;
+}
+
+.service-pack4__subtitle {
+    width: 100%;
+    height: 5rem;
+    padding: 0.625em 0;
+    font-weight: 300;
+    background-color: #313445;
+}
+
+.service-pack4__subtitle-1 {
+    font-size: 1.5em;
+    margin-top: 0.4375em;
+}
+
+.service-pack4__subtitle-2 {
+    font-size: 0.875em;
+    display: block;
+}
+
+.service-pack4__list {
+    padding: 0.9375em 0;
+    font-weight: 300;
+}
+
+.service-pack4__item {
+    list-style-type: none;
+    padding: 0.1875em 0;
+}
+
+.service-pack4__item--line-through {
+    text-decoration-line: line-through;
+   color: #5f727f;
+}
+
+.service-pack4__btn {
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+}
+
+.service-pack4__btn-child {
+    display: block;
+    border-radius: 1.25em;
+    padding: 0.625em 1.875em;
+    margin: 2.5em 0;
+    position: relative;
+    text-decoration: none;
+    color: #ffff;
+    background-color: #99a9b5;
+    transition: all 0.1s;
+}
+
+.service-pack4__btn-child:hover {
+    transform: scale(1.1);
+}
+
+.service-pack4__btn-child:active {
+    transform: scale(0.5);
+}
+
+.service-pack4__content:hover .service-pack4__btn-child {
+    background-color: #ffff;
+    color: #3c3950;
+    transition: 0.6s ease-in-out;
+}
+
+.service-pack4__price--tiny {
+    background-color: #1f596b;
+}
+
+.service-pack4__price-child--tiny {
+    background-color: #00bcd4;
+}
+
+.service-pack4-tick-tiny,
+.service-pack4__name--tiny {
+    color: #00bcd4;
+
+    display: inline;
+}
+
+.service-pack4__price--small {
+    background-color: #513172;
+}
+
+.service-pack4__price-child--small {
+    background-color: #a637ec;
+}
+
+.service-pack4-tick-small,
+.service-pack4__name--small {
+    color: #a637ec;
+}
+
+.service-pack4__price--medium {
+    background-color: #703e5d;
+}
+
+.service-pack4__price-child--medium {
+    background-color: #ee417c;
+}
+
+.service-pack4-tick-medium,
+.service-pack4__name--medium {
+    color: #ee417c;
+}
+
+.service-pack4__price--large {
+    background-color: #6c4e42;
+}
+
+.service-pack4__price-child--large {
+    background-color: #ff994e;
+}
+
+.service-pack4-tick-large,
+.service-pack4__name--large {
+    color: #ff994e;
+}
+
+.service-pack4__new::before {
+    content: "new!";
+    padding: 1.875em 1.465625em;
+    border-radius: 6.25rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    position: absolute;
+    transform: translatey(-50%);
+    text-transform: uppercase;
+    z-index: 1;
+    color: #ffff;
+    background-color: #2c2e3d;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .service-pack4__price {
+        width: 10.625em;
+        height: 10.625em;
+    }
+
+    .service-pack4__price-child {
+        width: 8.75em;
+        height: 8.75em;
+    }
+
+    .service-pack4__content:hover .service-pack4__price {
+        width: 11.875em;
+        height: 11.875em;
+    }
+
+    .service-pack4__subtitle-1 {
+        font-size: 1.375em;
+    }
+}
